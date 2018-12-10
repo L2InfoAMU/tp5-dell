@@ -2,6 +2,9 @@ package image;
 
 import javafx.scene.paint.Color;
 
+/**
+ * Stores an image as a 2D array.
+ */
 public class BruteRasterImage extends RasterImage {
     private Color[][] matrix;
 

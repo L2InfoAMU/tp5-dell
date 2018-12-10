@@ -1,5 +1,9 @@
 package image;
 
+/**
+ * Basic {@link Image} abstract class that provides getters and setters for the
+ * height and width properties.
+ */
 public abstract class DimensionedImage implements Image {
 
     protected int height, width;

@@ -4,6 +4,9 @@ import javafx.scene.paint.Color;
 
 import java.util.List;
 
+/**
+ * Implements a regular polygon. Doesn't support overlaps.
+ */
 public class Polygon implements Shape {
 
     private final List<Point> points;

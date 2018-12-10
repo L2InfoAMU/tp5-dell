@@ -30,8 +30,6 @@ public class Display implements Initializable {
         imageFactory = new LogoLISFactory();
 
         this.image = imageFactory.makeImage();
-        System.out.println(image.getHeight());
-        System.out.println(image.getWidth());
 
         render();
     }

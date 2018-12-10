@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36610fc1-b4d2-484c-8542-643eee9dc579" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/PaletteRasterImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/image/RasterImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/image/RasterFlagFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/image/RasterFlagFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/image/RasterImageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/image/RasterImageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/image/RasterUniformImageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/image/RasterUniformImageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/image/BruteRasterImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/image/BruteRasterImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/image/PaletteRasterImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/image/PaletteRasterImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/viewer/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewer/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/RasterFlagFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/image/RasterFlagFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/RasterFlagFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/image/RasterFlagFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/RasterImageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/image/RasterImageType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/RasterUniformImageFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/image/RasterUniformImageFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/RasterUniformImageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/image/RasterUniformImageFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/viewer/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/viewer/Display.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +30,22 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/viewer/Display.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+              <caret line="28" column="95" selection-start-line="28" selection-start-column="95" selection-end-line="28" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/image/RasterImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,17 +53,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/image/BruteRasterImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="675">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
                 <element signature="e#690#691#0" expanded="true" />
                 <element signature="e#739#740#0" expanded="true" />
                 <element signature="e#873#874#0" expanded="true" />
                 <element signature="e#909#910#0" expanded="true" />
                 <element signature="e#947#948#0" expanded="true" />
                 <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,12 +74,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/image/PaletteRasterImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#836#837#0" expanded="true" />
                 <element signature="e#890#891#0" expanded="true" />
               </folding>
@@ -93,10 +105,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/image/NotSupportedException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/image/BruteRasterImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/image/RasterImageType.java" />
         <option value="$PROJECT_DIR$/src/main/java/image/RasterFlagFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/image/RasterUniformImageFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/image/RasterImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/image/BruteRasterImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/image/PaletteRasterImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/viewer/Display.java" />
       </list>
@@ -189,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544479040056" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544479354575" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -235,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544477168783</updated>
-      <workItem from="1544477170670" duration="1868000" />
+      <workItem from="1544477170670" duration="2177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1868000" />
+    <option name="totallyTimeSpent" value="2177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="93" y="72" width="2401" height="1230" extended-state="0" />
@@ -320,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/image/RasterFlagFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/image/RasterUniformImageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -334,33 +340,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/image/PaletteRasterImage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/image/RasterFlagFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/image/BruteRasterImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="675">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
             <element signature="e#690#691#0" expanded="true" />
             <element signature="e#739#740#0" expanded="true" />
             <element signature="e#873#874#0" expanded="true" />
             <element signature="e#909#910#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/image/PaletteRasterImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/image/RasterImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -368,7 +398,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/viewer/Display.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <caret line="28" column="95" selection-start-line="28" selection-start-column="95" selection-end-line="28" selection-end-column="95" />
         </state>
       </provider>
     </entry>

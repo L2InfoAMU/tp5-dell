@@ -5,33 +5,21 @@ import javafx.scene.paint.Color;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PaletteRasterImage implements Image {
-    private List<Color> palette = new ArrayList<>();
+public class PaletteRasterImage extends RasterImage {
+    private List<Color> palette;
     private byte[][] indexesOfColors;
-    private int height, width;
 
     public PaletteRasterImage(Color color, int width, int height) {
-        super();
-        this.setWidth(width);
-        this.setHeight(height);
-        this.createRepresentation();
-        this.setPixelsColor(color);
-
+        super(color, width, height);
     }
 
-    public PaletteRasterImage(Color[][] pixels) {
-        super();
-
-        if (pixels.length == 0)
-            throw new IllegalArgumentException("The given matrix was empty.");
-
-        this.setWidth(pixels.length);
-        this.setHeight(pixels[0].length);
-        this.createRepresentation();
-        this.setPixelsColor(pixels);
+    public PaletteRasterImage(Color[][] colors) {
+        super(colors);
     }
 
+    @Override
     public void createRepresentation() {
+        palette = new ArrayList<>();
         indexesOfColors = new byte[width][height];
     }
 
@@ -47,33 +35,5 @@ public class PaletteRasterImage implements Image {
         return palette.get(indexesOfColors[x][y]);
     }
 
-    private void setPixelsColor(Color[][] pixels) {
-        for (int i = 0; i < width; i++)
-            for (int j = 0; j < height; j++)
-                setPixelColor(pixels[i][j], i, j);
-    }
 
-    private void setPixelsColor(Color color) {
-        for (int i = 0; i < width; i++)
-            for (int j = 0; j < height; j++)
-                setPixelColor(color, i, j);
-    }
-
-    @Override
-    public int getWidth() {
-        return width;
-    }
-
-    @Override
-    public int getHeight() {
-        return height;
-    }
-
-    protected void setWidth(int width) {
-        this.width = width;
-    }
-
-    protected void setHeight(int height) {
-        this.height = height;
-    }
 }

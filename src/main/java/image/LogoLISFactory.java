@@ -19,7 +19,6 @@ public class LogoLISFactory implements ImageFactory{
 
         List<Shape> list = new ArrayList<>();
 
-
         for (int i = 0; i<colors.length; i++)
             list.add(new Rectangle(xCoordinates[i], yCoordinates[i], widths[i], heights[i], colors[i]));
 

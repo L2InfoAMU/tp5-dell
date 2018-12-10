@@ -26,7 +26,7 @@ public class Display implements Initializable {
 
         // TODO : rajouter la création d'une fabrique d'image pour initialiser imageFactory
 
-        imageFactory = new RasterUniformImageFactory(200, 200, Color.RED, RasterImageType.BRUTE);
+        imageFactory = new RasterUniformImageFactory(200, 200, Color.RED, RasterImageType.PALETTE);
 
         this.image = imageFactory.makeImage();
 

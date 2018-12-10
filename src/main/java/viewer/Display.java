@@ -26,9 +26,12 @@ public class Display implements Initializable {
 
         // TODO : rajouter la création d'une fabrique d'image pour initialiser imageFactory
 
-        imageFactory = new RasterUniformImageFactory(200, 200, Color.WHITE, RasterImageType.SPARSE);
+        //imageFactory = new RasterUniformImageFactory(200, 200, Color.WHITE, RasterImageType.SPARSE);
+        imageFactory = new LogoLISFactory();
 
         this.image = imageFactory.makeImage();
+        System.out.println(image.getHeight());
+        System.out.println(image.getWidth());
 
         render();
     }

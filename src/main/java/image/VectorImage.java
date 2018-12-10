@@ -4,15 +4,12 @@ import javafx.scene.paint.Color;
 
 import java.util.List;
 
-public class VectorImage implements Image {
+public class VectorImage extends DimensionedImage {
     private final List<Shape> shapes;
-    private final int width, height;
 
     public VectorImage(List<Shape> shapes, int width, int height) {
-        super();
+        super(width, height);
         this.shapes = shapes;
-        this.width = width;
-        this.height = height;
     }
 
     @Override
@@ -26,13 +23,4 @@ public class VectorImage implements Image {
         return Color.WHITE;
     }
 
-    @Override
-    public int getWidth() {
-        return width;
-    }
-
-    @Override
-    public int getHeight() {
-        return height;
-    }
 }

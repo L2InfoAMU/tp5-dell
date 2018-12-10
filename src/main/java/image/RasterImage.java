@@ -2,25 +2,19 @@ package image;
 
 import javafx.scene.paint.Color;
 
-public abstract class RasterImage implements Image {
-    protected int width, height;
-
+public abstract class RasterImage extends DimensionedImage {
     public RasterImage(Color color, int width, int height) {
-        super();
-        this.setHeight(height);
-        this.setWidth(width);
+        super(width, height);
         this.createRepresentation();
         this.setPixelsColor(color);
     }
 
     public RasterImage(Color[][] colors) {
-        super();
+        super(colors.length, (colors.length > 0) ? colors[0].length : 0);
 
         if (colors.length == 0)
             throw new IllegalArgumentException("The given matrix was empty.");
 
-        this.setWidth(colors.length);
-        this.setHeight(colors[0].length);
         this.setPixelsColor(colors);
     }
 
@@ -40,21 +34,4 @@ public abstract class RasterImage implements Image {
                 setPixelColor(color, i, j);
     }
 
-    @Override
-    public int getWidth() {
-        return width;
-    }
-
-    @Override
-    public int getHeight() {
-        return height;
-    }
-
-    protected void setWidth(int width) {
-        this.width = width;
-    }
-
-    protected void setHeight(int height) {
-        this.height = height;
-    }
 }
